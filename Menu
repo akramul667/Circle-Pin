@@ -32,7 +32,7 @@ while True:
 
 
     print(bipurple+"[×] Show Your Option")
-    print(biyellow+"\n[1] CIRCLE PIN BY USING ID\n[2] CIRCLE PIN BY USING NUMBER\n[3] 5 TERGET PIN NUMBER")
+    print(biyellow+"\n[1] CIRCLE PIN BY USING ID\n[2] CIRCLE PIN BY USING NUMBER\n[3] 5 TERGET PIN NUMBER\n")
 
     a=str(input(bicyan+"\n[>] Select Your Option: "))
     if a=="1":
@@ -45,7 +45,7 @@ while True:
         os.system('clear')
         a=()
     elif a=="3":
-        os.system(" 5pin.py")
+        os.system(" 5pin")
         os.system('clear')
         a=()
         
