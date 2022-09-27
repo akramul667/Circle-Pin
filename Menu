@@ -1,58 +1,10 @@
-# Bold High Intensty
-biblack="\3[1;90m"      # Black
-bired="\3[1;91m"        # Red
-bigreen="\3[1;92m"      # Green
-biyellow="\3[1;93m"     # Yellow
-biblue="\3[1;94m"       # Blue
-bipurple="\3[1;95m"     # Purple
-bicyan="\3[1;96m"       # Cyan
-# Bold High Intensty
+# Python code obfuscated by www.Facebook.com/akramul667
 
-# Bold High Intensty
-biblack="\033[1;90m"      # Black
-bired="\033[1;91m"        # Red
-bigreen="\033[1;92m"      # Green
-biyellow="\033[1;93m"     # Yellow
-biblue="\033[1;94m"       # Blue
-bipurple="\033[1;95m"     # Purple
-bicyan="\033[1;96m"       # Cyan
-# Bold High
-
-import os
-
-while True:
-    os.system('clear')
-    print(biblack+"""
-███╗░░██╗░█████╗░██╗░░░██╗░█████╗░███╗░░██╗
-████╗░██║██╔══██╗╚██╗░██╔╝██╔══██╗████╗░██║
-██╔██╗██║██║░░██║░╚████╔╝░██║░░██║██╔██╗██║
-██║╚████║██║░░██║░░╚██╔╝░░██║░░██║██║╚████║
-██║░╚███║╚█████╔╝░░░██║░░░╚█████╔╝██║░╚███║
-╚═╝░░╚══╝░╚════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝""")
-
-
-    print(bipurple+"[×] Show Your Option")
-    print(biyellow+"\n[1] CIRCLE PIN BY USING ID\n[2] CIRCLE PIN BY USING NUMBER\n[3] 5 TERGET PIN NUMBER\n")
-
-    a=str(input(bicyan+"\n[>] Select Your Option: "))
-    if a=="1":
-        os.system("python IDtoPin")
-
-        os.system('clear')
-        a=()
-    elif a=="2":
-        os.system("python NbToPin")
-        os.system('clear')
-        a=()
-    elif a=="3":
-        os.system("python 5pin")
-        os.system('clear')
-        a=()
-        
-        
-
-    else:
-        print("Wrong")
-        a=()
-
-os.system('clear')
+import base64, codecs
+magic = 'IyBCb2xkIEhpZ2ggSW50ZW5zdHkKYmlibGFjaz0iXDNbMTs5MG0iICAgICAgIyBCbGFjawpiaXJlZD0iXDNbMTs5MW0iICAgICAgICAjIFJlZApiaWdyZWVuPSJcM1sxOzkybSIgICAgICAjIEdyZWVuCmJpeWVsbG93PSJcM1sxOzkzbSIgICAgICMgWWVsbG93CmJpYmx1ZT0iXDNbMTs5NG0iICAgICAgICMgQmx1ZQpiaXB1cnBsZT0iXDNbMTs5NW0iICAgICAjIFB1cnBsZQpiaWN5YW49IlwzWzE7OTZtIiAgICAgICAjIEN5YW4KIyBCb2xkIEhpZ2ggSW50ZW5zdHkKCiMgQm9sZCBIaWdoIEludGVuc3R5CmJpYmxhY2s9IlwwMzNbMTs5MG0iICAgICAgIyBCbGFjawpiaXJlZD0iXDAzM1sxOzkxbSIgICAgICAgICMgUmVkCmJpZ3JlZW49IlwwMzNbMTs5Mm0iICAgICAgIyBHcmVlbgpiaXllbGxvdz0iXDAzM1sxOzkzbSIgICAgICMgWWVsbG93CmJpYmx1ZT0iXDAzM1sxOzk0bSIgICAgICAgIyBCbHVlCmJpcHVycGxlPSJcMDMzWzE7OTVtIiAgICAgIyBQdXJwbGUKY'
+love = 'zywrJShCFWpZQZmJmR7BGMgVvNtVPNtVPNwVRA5LJ4XVlOPo2kxVRucM2tXPzygpT9lqPOipjbXq2ucoTHtIUW1MGbXVPNtVT9mYaA5p3EyoFtaL2kyLKVaXDbtVPNtpUWcoaDbLzyvoTSwnlfvVvVX4cnV4cnV4cnV4cJK4cnE4cnE4cnV4cnV4cJK4cnE4cnV4cnV4cnV4cnV4cnV4cJK4cnE4cnV4cnV4cJK4cnE4cnE4cnE4cnV4cnV4cJK4cnE4cnV4cnV4cnV4cnV4cnV4cJK4cnE4cnV4cnV4cnV4cJK4cnE4cnE4cnV4cnV4cJKPhXJvBXJvBXJvBXJvBXIy+XJxrXJvBXJvBXIxrXJvBXJvBXIyBXIxBXIxBXJvBXJvBXIy+XIzhXJvBXJvBXIy+XJxrXJvBXJvBXIyBXIarXJvBXJvBXIyBXIxBXIxBXJvBXJvBXIy+XJvBXJvBXJvBXJvBXIy+XJxrXJvBXJvBXIxDevybwvybwvyMGvybwvybwvyMsvybwvybwvyMUvybwvybwvyMUvycUvycUvybwvybwvyMUvycUvyMevybwvybwvybwvybwvyMGvyM3vycUvybwvybwvyMUvycUvycUvybwvybwvyMUvybwvybwvyMGvybwvyb'
+god = 'jilZfilojilojilZEK4paI4paI4pWR4pWa4paI4paI4paI4paI4pWR4paI4paI4pWR4paR4paR4paI4paI4pWR4paR4paR4pWa4paI4paI4pWU4pWd4paR4paR4paI4paI4pWR4paR4paR4paI4paI4pWR4paI4paI4pWR4pWa4paI4paI4paI4paI4pWRCuKWiOKWiOKVkeKWkeKVmuKWiOKWiOKWiOKVkeKVmuKWiOKWiOKWiOKWiOKWiOKVlOKVneKWkeKWkeKWkeKWiOKWiOKVkeKWkeKWkeKWkeKVmuKWiOKWiOKWiOKWiOKWiOKVlOKVneKWiOKWiOKVkeKWkeKVmuKWiOKWiOKWiOKVkQrilZrilZDilZ3ilpHilpHilZrilZDilZDilZ3ilpHilZrilZDilZDilZDilZDilZ3ilpHilpHilpHilpHilZrilZDilZ3ilpHilpHilpHilpHilZrilZDilZDilZDilZDilZ3ilpHilZrilZDilZ3ilpHilpHilZrilZDilZDilZ0iIiIpCgoKICAgIHByaW50KGJpcHVycGxlKyJbw5ddIFNob3cgWW91ciBPcHRpb24iKQogICAgcHJpbnQoYml5ZWxsb3crIlxuWzFdIENJUkNMRSBQSU4'
+destiny = 'tDyxtIIAWGxptFHEpoyflKFOQFIWQGRHtHRyBVRWMVSIGFH5UVR5IGHWSHykhJmAqVQHtIRIFE0IHVSOWGvOBIH1PEIWpovVcPtbtVPNtLG1mqUVbnJ5jqKDbLzywrJShXlWpoyf+KFOGMJkyL3DtJJ91pvOCpUEco246VPVcXDbtVPNtnJLtLG09VwRvBtbtVPNtVPNtVT9mYaA5p3EyoFtvpUy0nT9hVRyRqT9DnJ4vXDbXVPNtVPNtVPOipl5mrKA0MJ0bW2AfMJSlWlxXVPNtVPNtVPOuCFtcPvNtVPOyoTyzVTR9CFVlVwbXVPNtVPNtVPOipl5mrKA0MJ0bVaO5qTuiovOBLyEiHTyhVvxXVPNtVPNtVPOipl5mrKA0MJ0bW2AfMJSlWlxXVPNtVPNtVPOuCFtcPvNtVPOyoTyzVTR9CFVmVwbXVPNtVPNtVPOipl5mrKA0MJ0bVaO5qTuiovN1pTyhVvxXVPNtVPNtVPOipl5mrKA0MJ0bW2AfMJSlWlxXVPNtVPNtVPOuCFtcPvNtVPNtVPNtPvNtVPNtVPNtPtbtVPNtMJkmMGbXVPNtVPNtVPOjpzyhqPtvI3WiozpvXDbtVPNtVPNtVTR9XPxXPz9mYaA5p3EyoFtaL2kyLKVaXD=='
+joy = '\x72\x6f\x74\x31\x33'
+trust = eval('\x6d\x61\x67\x69\x63') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x6c\x6f\x76\x65\x2c\x20\x6a\x6f\x79\x29') + eval('\x67\x6f\x64') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x64\x65\x73\x74\x69\x6e\x79\x2c\x20\x6a\x6f\x79\x29')
+eval(compile(base64.b64decode(eval('\x74\x72\x75\x73\x74')),'<string>','exec'))
