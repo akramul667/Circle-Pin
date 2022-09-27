@@ -41,11 +41,11 @@ while True:
         os.system('clear')
         a=()
     elif a=="2":
-        os.system(" python NbToPin")
+        os.system("python NbToPin")
         os.system('clear')
         a=()
     elif a=="3":
-        os.system(" 5pin")
+        os.system("python 5pin")
         os.system('clear')
         a=()
         
